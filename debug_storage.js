@@ -1,0 +1,1 @@
+console.log('Debug localStorage:'); const stored = localStorage.getItem('birthday-site-storage'); console.log('Stored data:', stored); if(stored) { const parsed = JSON.parse(stored); console.log('Parsed data:', parsed); }
